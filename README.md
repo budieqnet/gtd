@@ -164,25 +164,6 @@ routes/
 └── auth.php                    # Route auth (Breeze)
 ```
 
-## 📚 Dokumentasi Tambahan
-
-| File | Deskripsi |
-|------|-----------|
-| [`INDEX.md`](./INDEX.md) | Navigasi cepat seluruh proyek (tech stack, route, model, view) |
-| [`PROJECT_HISTORY.md`](./PROJECT_HISTORY.md) | Riwayat pengembangan per fase + daftar fitur lengkap |
-| [`ACCOUNTS.md`](./ACCOUNTS.md) | Daftar akun pegawai/admin untuk testing |
-| [`DEPLOY.md`](./DEPLOY.md) | Panduan deployment production |
-| [`joki-bug.md`](./joki-bug.md) | Catatan bug & solusi selama development |
-
-## 🔐 Akun Default (Setelah `migrate --seed`)
-
-| Role | Login | Password |
-|------|-------|----------|
-| Admin | `admin` | `password` |
-| Employee | NIP dari seeder | `password` |
-
-> Lihat [`ACCOUNTS.md`](./ACCOUNTS.md) untuk daftar lengkap NIP pegawai.
-
 ## 🧪 Testing
 
 ```bash
